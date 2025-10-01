@@ -1,4 +1,4 @@
-import YinYang from "../assets/icons/YinYang.svg";
+import YinYang from "../assets/icons/YinYang";
 import { useTheme } from "../theme/ThemeContext";
 
 export default function ThemeSwitcher() {
@@ -6,7 +6,7 @@ export default function ThemeSwitcher() {
 
   return (
     <button onClick={() => toggle()}>
-      <img src={YinYang} alt="themeSwitcher" width={25} height={25} />
+      <YinYang size={24} />
     </button>
   );
 }

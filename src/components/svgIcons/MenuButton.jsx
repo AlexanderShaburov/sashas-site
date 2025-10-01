@@ -1,5 +1,5 @@
 // src/assets/icons/MenuIcon.jsx
-import MenuIcon from "../../assets/icons/menuIcon.jsx";
+import MenuIcon from "../../assets/icons/MenuIcon.jsx";
 
 function ShowMenu() {
   return <h1>Menu</h1>;
