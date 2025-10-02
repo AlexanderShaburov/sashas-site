@@ -1,4 +1,5 @@
-import { InstagramIcon } from "../assets/icons/InstagramIcon";
+import { InstagramIcon } from "./InstagramIcon";
+import "./instagramButton.css";
 
 export function InstagramLink({ username = "a.sasha.art" }) {
   const openInstagram = () => {

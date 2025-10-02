@@ -1,5 +1,6 @@
 // src/assets/icons/MenuIcon.jsx
-import MenuIcon from "../../assets/icons/MenuIcon.jsx";
+import MenuIcon from "./MenuIcon.jsx";
+import "./menuButton.css";
 
 function ShowMenu() {
   return <h1>Menu</h1>;
@@ -7,7 +8,12 @@ function ShowMenu() {
 
 export default function MenuButton() {
   return (
-    <button onClick={ShowMenu}>
+    <button
+      type="button"
+      aria-label="menu button"
+      className="menuButton"
+      onClick={ShowMenu}
+    >
       <MenuIcon color="#ccc" size={25} />
     </button>
   );

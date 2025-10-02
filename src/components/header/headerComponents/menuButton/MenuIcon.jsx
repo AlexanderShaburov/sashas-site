@@ -1,6 +1,6 @@
 export default function MenuIcon({ color = "#000", size = 24 }) {
   return (
-    <>
+    <div className="menuButton">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -37,6 +37,6 @@ export default function MenuIcon({ color = "#000", size = 24 }) {
           ry="0.95"
         />
       </svg>
-    </>
+    </div>
   );
 }

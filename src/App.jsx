@@ -1,6 +1,6 @@
 import MainLayout from "./components/MainLayout";
-import Header from "./components/Header";
-import BottomBar from "./components/BottomBar";
+import Header from "./components/header/Header";
+import BottomBar from "./components/footer/BottomBar";
 import "./App.css";
 
 export default function App() {

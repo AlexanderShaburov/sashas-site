@@ -1,7 +1,8 @@
 /* eslint-disable no-unused-vars */
-import { useTheme } from "../theme/ThemeContext";
-import { SunIcon } from "../assets/icons/SunIcon";
-import { MoonIcon } from "../assets/icons/MoonIcon";
+import { useTheme } from "../../../../theme/ThemeContext";
+import { SunIcon } from "./SunIcon";
+import { MoonIcon } from "./MoonIcon";
+import "./themeSwitcher.css";
 
 export default function ThemeSwitcher() {
   const { theme, mode, toggle, setLight, setDark, setSystem } = useTheme();
