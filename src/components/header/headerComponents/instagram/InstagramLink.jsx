@@ -60,7 +60,7 @@ export function InstagramLink({ username = "a.sasha.art" }) {
     <button
       type="button"
       onClick={openInstagram}
-      className="instagramButton"
+      className="btn instagramButton"
       aria-label="Instagram"
     >
       <InstagramIcon size={24} />

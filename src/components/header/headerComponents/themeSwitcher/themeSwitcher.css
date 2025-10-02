@@ -1,4 +1,4 @@
-.themeSwicherButton {
+.themeSwitcherButton {
   appearance: none;
   -webkit-appearance: none;
   border: none;
@@ -16,7 +16,7 @@
   background: var(--main-bg);
   cursor: pointer;
 }
-.themeSwicherButton svg {
+.themeSwitcherButton svg {
   display: block;
   width: 1.5rem;
   height: 1.5rem;

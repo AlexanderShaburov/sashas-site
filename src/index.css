@@ -10,12 +10,40 @@ body {
   height: 100;
 }
 
-.common-background {
-  box-sizing: border-box;
+:root {
+  --bg: #f8f7f5; /* фон — светлый, теплый, не чисто белый */
+  --text: #1e1e1c; /* основной текст — почти чёрный, но мягче */
+  --muted: #555555; /* второстепенный текст */
+  --border: #dcdad6; /* рамки и линии */
+  --card-bg: #ffffff; /* фон карточек/блоков */
+  --accent: #3a5f8a; /* глубокий сине-серый, спокойный акцент */
+  --accent-hover: #2f4f6d;
+}
+
+:root[data-theme="dark"] {
+  --bg: #121212; /* фон — глубокий графит */
+  --text: #e4e4e2; /* текст — почти белый, но мягче */
+  --muted: #aaaaaa; /* второстепенный текст */
+  --border: #2c2c2c; /* рамки и линии */
+  --card-bg: #1c1c1c; /* карточки чуть светлее фона */
+  --accent: #5b8ab2; /* светлый акцент (вариация синего) */
+  --accent-hover: #729ec0;
+}
+
+body {
   margin: 0;
-  padding: 0;
-  background-color: #888;
-  height: 100vh;
-  width: 100vw;
-  color: antiquewhite;
+  background: var(--bg);
+  color: var(--text);
+  font-family: sans-serif;
+}
+
+.btn {
+  background: var(--accent);
+  color: var(--text);
+  border: 1px solid var(--muted);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.btn:hover {
+  opacity: 0.8;
 }

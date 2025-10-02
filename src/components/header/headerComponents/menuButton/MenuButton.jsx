@@ -11,10 +11,10 @@ export default function MenuButton() {
     <button
       type="button"
       aria-label="menu button"
-      className="menuButton"
+      className="btn menuButton"
       onClick={ShowMenu}
     >
-      <MenuIcon color="#ccc" size={25} />
+      <MenuIcon size={25} />
     </button>
   );
 }

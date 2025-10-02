@@ -12,6 +12,7 @@ export function InstagramIcon({ size = 24, ...props }) {
       strokeLinecap="round"
       strokeLinejoin="round"
       aria-hidden="true"
+      focusable="false"
       {...props}
     >
       {/* корпус камеры */}

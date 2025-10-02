@@ -11,7 +11,7 @@ export default function ThemeSwitcher() {
     <button
       type="button"
       aria-label="Toggle theme"
-      className="themeSwicherButton"
+      className="btn themeSwitcherButton"
       onClick={toggle}
     >
       {theme === "dark" ? <SunIcon size={24} /> : <MoonIcon size={24} />}

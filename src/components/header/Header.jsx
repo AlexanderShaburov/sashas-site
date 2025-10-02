@@ -7,7 +7,7 @@ import "./header.css";
 export default function Header() {
   return (
     <div className="headerContainer">
-      <MenuButton className="menuButton" size={24} />
+      <MenuButton className="btn menuButton" size={24} />
       <Logo />
       <ThemeSwitcher />
       <InstagramLink />

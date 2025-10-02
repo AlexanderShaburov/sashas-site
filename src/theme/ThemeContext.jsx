@@ -3,7 +3,7 @@ import { createContext, useContext, useEffect, useMemo, useState } from "react";
 const ThemeCtx = createContext(null);
 
 function getSystemTheme() {
-  return window.matchMedia("(prefers-color-scheme: dark").matches
+  return window.matchMedia("(prefers-color-scheme: dark)").matches
     ? "dark"
     : "light";
 }
@@ -43,8 +43,8 @@ export function ThemeProvider({ children }) {
 
   // instant <html> theme application:
   useEffect(() => {
-    const root = document.documentElement;
-  });
+    document.documentElement.setAttribute("data-theme", theme);
+  }, [theme]);
 
   const value = useMemo(
     () => ({
@@ -58,9 +58,11 @@ export function ThemeProvider({ children }) {
     }),
     [mode, theme]
   );
+
   return <ThemeCtx.Provider value={value}>{children}</ThemeCtx.Provider>;
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export function useTheme() {
   const ctx = useContext(ThemeCtx);
   if (!ctx) throw new Error("useTheme must be used within ThemeProvider");
