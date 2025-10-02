@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import logoLight from "../assets/logo/LogoBlack.png";
 import logoDark from "../assets/logo/LogoWhite.png";
 import { useTheme } from "../theme/ThemeContext";
@@ -7,5 +8,9 @@ export default function Logo() {
 
   const src = theme === "dark" ? logoDark : logoLight;
 
-  return <img src={src} alt="logo" height={40} />;
+  return (
+    <div className="logoSign">
+      <img src={src} alt="logo" height={40} />
+    </div>
+  );
 }
