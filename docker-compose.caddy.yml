@@ -5,6 +5,7 @@ services:
       dockerfile: Dockerfile
     container_name: atsashas_art_app
     restart: unless-stopped
+    expose: -"80"
 
   caddy:
     image: caddy:2.8-alpine
@@ -14,8 +15,8 @@ services:
       - "80:80"
       - "443:443"
     environment:
-      - DOMAIN=atsashas.art
-      - EMAIL=shaburov@mac.com
+      - DOMAIN=${DOMAIN}
+      - EMAIL=${EMAIL}
     volumes:
       - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
       - caddy_data:/data # <-- тут хранится сертификат (переживёт любые билды/рестарты)
