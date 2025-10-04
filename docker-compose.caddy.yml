@@ -1,3 +1,5 @@
+version: "3.8"
+
 services:
   app:
     build:
@@ -5,7 +7,8 @@ services:
       dockerfile: Dockerfile
     container_name: atsashas_art_app
     restart: unless-stopped
-    expose: -"80"
+    expose:
+      - "80" # ДОЛЖЕН быть массив
 
   caddy:
     image: caddy:2.8-alpine
@@ -19,7 +22,7 @@ services:
       - EMAIL=${EMAIL}
     volumes:
       - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
-      - caddy_data:/data # <-- тут хранится сертификат (переживёт любые билды/рестарты)
+      - caddy_data:/data
       - caddy_config:/config
     depends_on:
       - app
