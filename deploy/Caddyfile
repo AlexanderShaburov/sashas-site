@@ -1,8 +1,24 @@
 {
     email {$EMAIL}
 }
+
 {$DOMAIN} {
     encode zstd gzip
+
+    header -Server
+
+    
+    header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+
+    @static path *.css *.js *.png *.jpg *.jpeg *.webp *.svg *.ico *.gif *.woff *.woff2
+    header @static Cache-Control "public, max-age=31536000, immutable"
+
+    @json path *.json
+    header @json Cache-Control "public, max-age=300"
+
+    @wp path_regexp /(wp|wordpress|xmlrpc\.php|wlwmanifest\.xml|blog)
+    respond @wp 404
+
     reverse_proxy app:80
 }
 
