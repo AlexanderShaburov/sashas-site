@@ -1,0 +1,9 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: atsashas_art_web
+    restart: unless-stopped
+    ports:
+      - "80:80"
