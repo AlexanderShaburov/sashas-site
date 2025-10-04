@@ -2,6 +2,7 @@
 import logoLight from "./images/logo/LogoBlack.png";
 import logoDark from "./images/logo/LogoWhite.png";
 import { useTheme } from "../../../theme/ThemeContext";
+import { Link } from "react-router-dom";
 
 export default function Logo() {
   const { theme, mode, toggle, setLight, setDark, setSystem } = useTheme();
@@ -9,8 +10,8 @@ export default function Logo() {
   const src = theme === "dark" ? logoDark : logoLight;
 
   return (
-    <div className="logoSign">
+    <Link to="/" className="logoSign" aria-label="Home">
       <img src={src} alt="logo" height={40} />
-    </div>
+    </Link>
   );
 }

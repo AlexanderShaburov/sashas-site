@@ -1,0 +1,76 @@
+[
+  {
+    "id": "m01",
+    "layout": "mosaicRight",
+    "images": [
+      { "src": "/gallery/mixed/m01.png", "alt": "Mixed Media 01" },
+      { "src": "/gallery/mixed/m02.png", "alt": "Mixed Media 02" },
+      { "src": "/gallery/mixed/m03.png", "alt": "Mixed Media 03" }
+    ],
+    "caption": "Mixed media series"
+  },
+  {
+    "id": "m02",
+    "layout": "single",
+    "images": [{ "src": "/gallery/mixed/m04.png", "alt": "Mixed Media 04" }]
+  },
+  {
+    "id": "m03",
+    "layout": "pair",
+    "images": [
+      { "src": "/gallery/mixed/m05.png", "alt": "Mixed Media 05" },
+      { "src": "/gallery/mixed/m06.png", "alt": "Mixed Media 06" }
+    ]
+  },
+  {
+    "id": "m04",
+    "layout": "mosaicLeft",
+    "images": [
+      { "src": "/gallery/mixed/m07.png", "alt": "Mixed Media 07" },
+      { "src": "/gallery/mixed/m08.png", "alt": "Mixed Media 08" },
+      { "src": "/gallery/mixed/m09.png", "alt": "Mixed Media 09" }
+    ]
+  },
+  {
+    "id": "m05",
+    "layout": "single",
+    "images": [{ "src": "/gallery/mixed/m10.png", "alt": "Mixed Media 10" }],
+    "caption": "Mixed media on paper"
+  },
+  {
+    "id": "m06",
+    "layout": "pair",
+    "images": [
+      { "src": "/gallery/mixed/m11.png", "alt": "Mixed Media 11" },
+      { "src": "/gallery/mixed/m12.png", "alt": "Mixed Media 12" }
+    ]
+  },
+  {
+    "id": "m07",
+    "layout": "mosaicRight",
+    "images": [
+      { "src": "/gallery/mixed/m13.png", "alt": "Mixed Media 13" },
+      { "src": "/gallery/mixed/m14.png", "alt": "Mixed Media 14" },
+      { "src": "/gallery/mixed/m15.png", "alt": "Mixed Media 15" }
+    ]
+  },
+  {
+    "id": "m08",
+    "layout": "pair",
+    "images": [
+      { "src": "/gallery/mixed/m16.png", "alt": "Mixed Media 16" },
+      { "src": "/gallery/mixed/m17.png", "alt": "Mixed Media 17" }
+    ],
+    "caption": "Diptych"
+  },
+  {
+    "id": "m09",
+    "layout": "single",
+    "images": [{ "src": "/gallery/mixed/m18.png", "alt": "Mixed Media 18" }]
+  },
+  {
+    "id": "m10",
+    "layout": "single",
+    "images": [{ "src": "/gallery/mixed/m19.png", "alt": "Mixed Media 19" }]
+  }
+]
