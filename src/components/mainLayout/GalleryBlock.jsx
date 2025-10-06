@@ -31,7 +31,7 @@ export default function GalleryBlock({ block }) {
     return (
       <>
         <figure className="block mosaicLeft">
-          {images.slice(0, 2).map((img, i) => (
+          {images.slice(0, 3).map((img, i) => (
             <picture key={i} role="button" onClick={() => open(img)}>
               <source type="image/avif" srcSet={img.preview.avif} />
               <source type="image/webp" srcSet={img.preview.webp} />
@@ -69,9 +69,13 @@ export default function GalleryBlock({ block }) {
     <>
       <figure className="block single">
         <picture role="button" onClick={() => open(images[0])}>
-          <source type="image/avif" srcSet={img.preview.avif} />
-          <source type="image/webp" srcSet={img.preview.webp} />
-          <img srs={img.preview.jpeg} alt={img.alt || ""} loading="lazy" />
+          <source type="image/avif" srcSet={images[0].preview.avif} />
+          <source type="image/webp" srcSet={images[0].preview.webp} />
+          <img
+            srs={images[0].preview.jpeg}
+            alt={images[0].alt || ""}
+            loading="lazy"
+          />
         </picture>
         {caption ? <figcaption>{caption}</figcaption> : null}
       </figure>

@@ -19,7 +19,7 @@
 .block img {
   display: block;
   width: 100%;
-  cursor: zoom-in;
+  cursor: pointer;
 }
 
 .block figcaption {
@@ -48,25 +48,25 @@
   grid-auto-rows: auto; /* высота строк задаётся контентом слева */
   align-items: start;
 }
-.block.mosaicLeft img {
+.block.mosaicLeft picture {
   display: block;
   width: 100%;
   height: auto; /* ← ключ: левые кадры не кропаются */
   object-fit: contain; /* бережное масштабирование по контейнеру */
 }
-.block.mosaicLeft > img:nth-of-type(1) {
+.block.mosaicLeft > picture:nth-of-type(1) {
   grid-column: 1;
   grid-row: 1; /* слева сверху */
   /* aspect-ratio: 4 / 3; */
   object-fit: cover;
 }
-.block.mosaicLeft img:nth-of-type(2) {
+.block.mosaicLeft > picture:nth-of-type(2) {
   grid-column: 1;
   grid-row: 2; /* слева снизу */
   /* aspect-ratio: 4 / 3; */
   object-fit: cover;
 }
-.block.mosaicLeft img:nth-of-type(3) {
+.block.mosaicLeft > picture:nth-of-type(3) {
   grid-column: 2;
   grid-row: 1 / span 2; /* занимает высоту двух левых */
   width: 100%;
@@ -79,25 +79,25 @@
   gap: var(--gap);
   grid-template-columns: 2fr 1fr; /* две колонки одинаковой ширины */
   grid-auto-rows: auto; /* высота строк задаётся контентом слева */
-  align-items: start;
+  align-items: stretch;
 }
-.block.mosaicRight img {
+.block.mosaicRight > picture {
   display: block;
   width: 100%;
   height: auto; /* ← ключ: левые кадры не кропаются */
   object-fit: contain; /* бережное масштабирование по контейнеру */
 }
-.block.mosaicRight > img:nth-of-type(1) {
+.block.mosaicRight > picture:nth-of-type(1) {
   grid-column: 1;
   grid-row: 1 / span 2; /* занимает высоту двух правых */
   object-fit: cover;
 }
-.block.mosaicRight img:nth-of-type(2) {
+.block.mosaicRight > picture:nth-of-type(2) {
   grid-column: 2;
   grid-row: 1; /* справа сверху */
   object-fit: cover;
 }
-.block.mosaicRight img:nth-of-type(3) {
+.block.mosaicRight > picture:nth-of-type(3) {
   grid-column: 2;
   grid-row: 2; /* справа снизу */
   width: 100%;
