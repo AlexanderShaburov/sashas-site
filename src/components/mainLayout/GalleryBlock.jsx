@@ -6,7 +6,7 @@ export default function GalleryBlock({ block }) {
   const { layout = "single", images = [], caption } = block ?? {};
   const [preview, setPreview] = useState(null);
 
-  const open = (img) => setPreview({ src: img.src, alt: img.alt || "" });
+  const open = (img) => setPreview({ src: img.full.png, alt: img.alt || "" });
   const close = () => setPreview(null);
 
   if (layout === "pair") {
@@ -69,13 +69,9 @@ export default function GalleryBlock({ block }) {
     <>
       <figure className="block single">
         <picture role="button" onClick={() => open(images[0])}>
-          <source type="image/avif" srcSet={images[0].preview.avif} />
-          <source type="image/webp" srcSet={images[0].preview.webp} />
-          <img
-            srs={images[0].preview.jpeg}
-            alt={images[0].alt || ""}
-            loading="lazy"
-          />
+          <source type="image/avif" srcSet={img.preview.avif} />
+          <source type="image/webp" srcSet={img.preview.webp} />
+          <img srs={img.preview.jpeg} alt={img.alt || ""} loading="lazy" />
         </picture>
         {caption ? <figcaption>{caption}</figcaption> : null}
       </figure>
