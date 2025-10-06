@@ -17,7 +17,7 @@ export default function GalleryBlock({ block }) {
             <picture key={i} role="button" onClick={() => open(img)}>
               <source type="image/avif" srcSet={img.preview.avif} />
               <source type="image/webp" srcSet={img.preview.webp} />
-              <img srs={img.preview.jpeg} alt={img.alt || ""} loading="lazy" />
+              <img src={img.preview.jpeg} alt={img.alt || ""} loading="lazy" />
             </picture>
           ))}
           {caption ? <figcaption>{caption}</figcaption> : null}
@@ -35,7 +35,7 @@ export default function GalleryBlock({ block }) {
             <picture key={i} role="button" onClick={() => open(img)}>
               <source type="image/avif" srcSet={img.preview.avif} />
               <source type="image/webp" srcSet={img.preview.webp} />
-              <img srs={img.preview.jpeg} alt={img.alt || ""} loading="lazy" />
+              <img src={img.preview.jpeg} alt={img.alt || ""} loading="lazy" />
             </picture>
           ))}
           {caption ? <figcaption>{caption}</figcaption> : null}
@@ -54,7 +54,7 @@ export default function GalleryBlock({ block }) {
             <picture key={i} role="button" onClick={() => open(img)}>
               <source type="image/avif" srcSet={img.preview.avif} />
               <source type="image/webp" srcSet={img.preview.webp} />
-              <img srs={img.preview.jpeg} alt={img.alt || ""} loading="lazy" />
+              <img src={img.preview.jpeg} alt={img.alt || ""} loading="lazy" />
             </picture>
           ))}
           {caption ? <figcaption>{caption}</figcaption> : null}
@@ -72,7 +72,7 @@ export default function GalleryBlock({ block }) {
           <source type="image/avif" srcSet={images[0].preview.avif} />
           <source type="image/webp" srcSet={images[0].preview.webp} />
           <img
-            srs={images[0].preview.jpeg}
+            src={images[0].preview.jpeg}
             alt={images[0].alt || ""}
             loading="lazy"
           />
