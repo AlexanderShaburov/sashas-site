@@ -3,74 +3,272 @@
     "id": "m01",
     "layout": "mosaicRight",
     "images": [
-      { "src": "/gallery/mixed/m01.png", "alt": "Mixed Media 01" },
-      { "src": "/gallery/mixed/m02.png", "alt": "Mixed Media 02" },
-      { "src": "/gallery/mixed/m03.png", "alt": "Mixed Media 03" }
+      {
+        "alt": "Mixed Media 01",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m01.avif",
+          "webp": "/gallery/mixed/preview/m01.webp",
+          "jpeg": "/gallery/mixed/preview/m01.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m01.png"
+        }
+      },
+      {
+        "alt": "Mixed Media 02",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m02.avif",
+          "webp": "/gallery/mixed/preview/m02.webp",
+          "jpeg": "/gallery/mixed/preview/m02.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m02.png"
+        }
+      },
+      {
+        "alt": "Mixed Media 03",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m03.avif",
+          "webp": "/gallery/mixed/preview/m03.webp",
+          "jpeg": "/gallery/mixed/preview/m03.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m03.png"
+        }
+      }
     ],
     "caption": "Mixed media series"
   },
   {
     "id": "m02",
     "layout": "single",
-    "images": [{ "src": "/gallery/mixed/m04.png", "alt": "Mixed Media 04" }]
+    "images": [
+      {
+        "alt": "Mixed Media 04",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m04.avif",
+          "webp": "/gallery/mixed/preview/m04.webp",
+          "jpeg": "/gallery/mixed/preview/m04.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m04.png"
+        }
+      }
+    ]
   },
   {
     "id": "m03",
     "layout": "pair",
     "images": [
-      { "src": "/gallery/mixed/m05.png", "alt": "Mixed Media 05" },
-      { "src": "/gallery/mixed/m06.png", "alt": "Mixed Media 06" }
+      {
+        "alt": "Mixed Media 05",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m05.avif",
+          "webp": "/gallery/mixed/preview/m05.webp",
+          "jpeg": "/gallery/mixed/preview/m05.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m05.png"
+        }
+      },
+      {
+        "alt": "Mixed Media 06",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m06.avif",
+          "webp": "/gallery/mixed/preview/m06.webp",
+          "jpeg": "/gallery/mixed/preview/m06.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m06.png"
+        }
+      }
     ]
   },
   {
     "id": "m04",
     "layout": "mosaicLeft",
     "images": [
-      { "src": "/gallery/mixed/m07.png", "alt": "Mixed Media 07" },
-      { "src": "/gallery/mixed/m08.png", "alt": "Mixed Media 08" },
-      { "src": "/gallery/mixed/m09.png", "alt": "Mixed Media 09" }
+      {
+        "alt": "Mixed Media 07",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m07.avif",
+          "webp": "/gallery/mixed/preview/m07.webp",
+          "jpeg": "/gallery/mixed/preview/m07.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m07.png"
+        }
+      },
+      {
+        "alt": "Mixed Media 08",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m08.avif",
+          "webp": "/gallery/mixed/preview/m08.webp",
+          "jpeg": "/gallery/mixed/preview/m08.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m08.png"
+        }
+      },
+      {
+        "alt": "Mixed Media 09",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m09.avif",
+          "webp": "/gallery/mixed/preview/m09.webp",
+          "jpeg": "/gallery/mixed/preview/m09.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m09.png"
+        }
+      }
     ]
   },
   {
     "id": "m05",
     "layout": "single",
-    "images": [{ "src": "/gallery/mixed/m10.png", "alt": "Mixed Media 10" }],
+    "images": [
+      {
+        "alt": "Mixed Media 10",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m10.avif",
+          "webp": "/gallery/mixed/preview/m10.webp",
+          "jpeg": "/gallery/mixed/preview/m10.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m10.png"
+        }
+      }
+    ],
     "caption": "Mixed media on paper"
   },
   {
     "id": "m06",
     "layout": "pair",
     "images": [
-      { "src": "/gallery/mixed/m11.png", "alt": "Mixed Media 11" },
-      { "src": "/gallery/mixed/m12.png", "alt": "Mixed Media 12" }
+      {
+        "alt": "Mixed Media 11",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m11.avif",
+          "webp": "/gallery/mixed/preview/m11.webp",
+          "jpeg": "/gallery/mixed/preview/m11.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m11.png"
+        }
+      },
+      {
+        "alt": "Mixed Media 12",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m12.avif",
+          "webp": "/gallery/mixed/preview/m12.webp",
+          "jpeg": "/gallery/mixed/preview/m12.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m12.png"
+        }
+      }
     ]
   },
   {
     "id": "m07",
     "layout": "mosaicRight",
     "images": [
-      { "src": "/gallery/mixed/m13.png", "alt": "Mixed Media 13" },
-      { "src": "/gallery/mixed/m14.png", "alt": "Mixed Media 14" },
-      { "src": "/gallery/mixed/m15.png", "alt": "Mixed Media 15" }
+      {
+        "alt": "Mixed Media 13",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m13.avif",
+          "webp": "/gallery/mixed/preview/m13.webp",
+          "jpeg": "/gallery/mixed/preview/m13.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m13.png"
+        }
+      },
+      {
+        "alt": "Mixed Media 14",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m14.avif",
+          "webp": "/gallery/mixed/preview/m14.webp",
+          "jpeg": "/gallery/mixed/preview/m14.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m14.png"
+        }
+      },
+      {
+        "alt": "Mixed Media 15",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m15.avif",
+          "webp": "/gallery/mixed/preview/m15.webp",
+          "jpeg": "/gallery/mixed/preview/m15.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m15.png"
+        }
+      }
     ]
   },
   {
     "id": "m08",
     "layout": "pair",
     "images": [
-      { "src": "/gallery/mixed/m16.png", "alt": "Mixed Media 16" },
-      { "src": "/gallery/mixed/m17.png", "alt": "Mixed Media 17" }
+      {
+        "alt": "Mixed Media 16",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m16.avif",
+          "webp": "/gallery/mixed/preview/m16.webp",
+          "jpeg": "/gallery/mixed/preview/m16.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m16.png"
+        }
+      },
+      {
+        "alt": "Mixed Media 17",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m17.avif",
+          "webp": "/gallery/mixed/preview/m17.webp",
+          "jpeg": "/gallery/mixed/preview/m17.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m17.png"
+        }
+      }
     ],
     "caption": "Diptych"
   },
   {
     "id": "m09",
     "layout": "single",
-    "images": [{ "src": "/gallery/mixed/m18.png", "alt": "Mixed Media 18" }]
+    "images": [
+      {
+        "alt": "Mixed Media 18",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m18.avif",
+          "webp": "/gallery/mixed/preview/m18.webp",
+          "jpeg": "/gallery/mixed/preview/m18.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m18.png"
+        }
+      }
+    ]
   },
   {
     "id": "m10",
     "layout": "single",
-    "images": [{ "src": "/gallery/mixed/m19.png", "alt": "Mixed Media 19" }]
+    "images": [
+      {
+        "alt": "Mixed Media 19",
+        "preview": {
+          "avif": "/gallery/mixed/preview/m19.avif",
+          "webp": "/gallery/mixed/preview/m19.webp",
+          "jpeg": "/gallery/mixed/preview/m19.jpg"
+        },
+        "full": {
+          "png": "/gallery/mixed/full/m19.png"
+        }
+      }
+    ]
   }
 ]

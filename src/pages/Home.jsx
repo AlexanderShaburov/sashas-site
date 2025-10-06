@@ -8,7 +8,7 @@ export default function Home() {
     {
       to: "/watercolor",
       title: "Watercolor",
-      img: `${base}gallery/watercolor/img24.png`,
+      img: `${base}gallery/watercolor/origin/img24.png`,
       posx: 50,
       posy: 50,
       zoom: 1.3,
@@ -16,7 +16,7 @@ export default function Home() {
     {
       to: "/mixed-media",
       title: "Mixed Media",
-      img: `${base}gallery/mixed/m14.png`,
+      img: `${base}gallery/mixed/origin/m14.png`,
       posx: 60,
       posy: 50,
       zoom: 1.3,

@@ -14,13 +14,11 @@ export default function GalleryBlock({ block }) {
       <>
         <figure className="block pair">
           {images.slice(0, 2).map((img, i) => (
-            <img
-              key={i}
-              src={img.src}
-              alt={img.alt || ""}
-              loading="lazy"
-              onClick={() => open(img)}
-            />
+            <picture key={i} role="button" onClick={() => open(img)}>
+              <source type="image/avif" srcSet={img.preview.avif} />
+              <source type="image/webp" srcSet={img.preview.webp} />
+              <img srs={img.preview.jpeg} alt={img.alt || ""} loading="lazy" />
+            </picture>
           ))}
           {caption ? <figcaption>{caption}</figcaption> : null}
         </figure>
@@ -33,14 +31,12 @@ export default function GalleryBlock({ block }) {
     return (
       <>
         <figure className="block mosaicLeft">
-          {images.slice(0, 3).map((img, i) => (
-            <img
-              key={i}
-              src={img.src}
-              alt={img.alt || ""}
-              loading="lazy"
-              onClick={() => open(img)}
-            />
+          {images.slice(0, 2).map((img, i) => (
+            <picture key={i} role="button" onClick={() => open(img)}>
+              <source type="image/avif" srcSet={img.preview.avif} />
+              <source type="image/webp" srcSet={img.preview.webp} />
+              <img srs={img.preview.jpeg} alt={img.alt || ""} loading="lazy" />
+            </picture>
           ))}
           {caption ? <figcaption>{caption}</figcaption> : null}
         </figure>
@@ -55,13 +51,11 @@ export default function GalleryBlock({ block }) {
       <>
         <figure className="block mosaicRight">
           {images.slice(0, 3).map((img, i) => (
-            <img
-              key={i}
-              src={img.src}
-              alt={img.alt || ""}
-              loading="lazy"
-              onClick={() => open(img)}
-            />
+            <picture key={i} role="button" onClick={() => open(img)}>
+              <source type="image/avif" srcSet={img.preview.avif} />
+              <source type="image/webp" srcSet={img.preview.webp} />
+              <img srs={img.preview.jpeg} alt={img.alt || ""} loading="lazy" />
+            </picture>
           ))}
           {caption ? <figcaption>{caption}</figcaption> : null}
         </figure>
@@ -74,12 +68,15 @@ export default function GalleryBlock({ block }) {
   return (
     <>
       <figure className="block single">
-        <img
-          src={images[0]?.src}
-          alt={images[0]?.alt || ""}
-          loading="lazy"
-          onClick={() => open(images[0])}
-        />
+        <picture role="button" onClick={() => open(images[0])}>
+          <source type="image/avif" srcSet={images[0].preview.avif} />
+          <source type="image/webp" srcSet={images[0].preview.webp} />
+          <img
+            srs={images[0].preview.jpeg}
+            alt={images[0].alt || ""}
+            loading="lazy"
+          />
+        </picture>
         {caption ? <figcaption>{caption}</figcaption> : null}
       </figure>
       {preview && <Lightbox {...preview} onClose={close} />}

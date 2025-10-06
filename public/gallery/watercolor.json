@@ -4,7 +4,17 @@
     "type": "work",
     "layout": "single",
     "images": [
-      { "src": "/gallery/watercolor/img01.png", "alt": "Watercolor 01" }
+      {
+        "alt": "Watercolor 01",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img01.avif",
+          "webp": "/gallery/watercolor/preview/img01.webp",
+          "jpeg": "/gallery/watercolor/preview/img01.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img01.png"
+        }
+      }
     ]
   },
   {
@@ -12,8 +22,28 @@
     "type": "work",
     "layout": "pair",
     "images": [
-      { "src": "/gallery/watercolor/img02.png", "alt": "Watercolor 02" },
-      { "src": "/gallery/watercolor/img03.png", "alt": "Watercolor 03" }
+      {
+        "alt": "Watercolor 02",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img02.avif",
+          "webp": "/gallery/watercolor/preview/img02.webp",
+          "jpeg": "/gallery/watercolor/preview/img02.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img02.png"
+        }
+      },
+      {
+        "alt": "Watercolor 03",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img03.avif",
+          "webp": "/gallery/watercolor/preview/img03.webp",
+          "jpeg": "/gallery/watercolor/preview/img03.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img03.png"
+        }
+      }
     ]
   },
   {
@@ -21,9 +51,39 @@
     "type": "work",
     "layout": "mosaicLeft",
     "images": [
-      { "src": "/gallery/watercolor/img04.png", "alt": "Watercolor 04" },
-      { "src": "/gallery/watercolor/img05.png", "alt": "Watercolor 05" },
-      { "src": "/gallery/watercolor/img06.png", "alt": "Watercolor 06" }
+      {
+        "alt": "Watercolor 04",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img04.avif",
+          "webp": "/gallery/watercolor/preview/img04.webp",
+          "jpeg": "/gallery/watercolor/preview/img04.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img04.png"
+        }
+      },
+      {
+        "alt": "Watercolor 05",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img05.avif",
+          "webp": "/gallery/watercolor/preview/img05.webp",
+          "jpeg": "/gallery/watercolor/preview/img05.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img05.png"
+        }
+      },
+      {
+        "alt": "Watercolor 06",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img06.avif",
+          "webp": "/gallery/watercolor/preview/img06.webp",
+          "jpeg": "/gallery/watercolor/preview/img06.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img06.png"
+        }
+      }
     ]
   },
   {
@@ -31,104 +91,364 @@
     "type": "work",
     "layout": "single",
     "images": [
-      { "src": "/gallery/watercolor/img07.png", "alt": "Watercolor 07" }
+      {
+        "alt": "Watercolor 07",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img07.avif",
+          "webp": "/gallery/watercolor/preview/img07.webp",
+          "jpeg": "/gallery/watercolor/preview/img07.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img07.png"
+        }
+      }
     ]
   },
   {
     "id": "w05",
     "layout": "pair",
     "images": [
-      { "src": "/gallery/watercolor/img08.png", "alt": "Watercolor 08" },
-      { "src": "/gallery/watercolor/img09.png", "alt": "Watercolor 09" }
+      {
+        "alt": "Watercolor 08",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img08.avif",
+          "webp": "/gallery/watercolor/preview/img08.webp",
+          "jpeg": "/gallery/watercolor/preview/img08.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img08.png"
+        }
+      },
+      {
+        "alt": "Watercolor 09",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img09.avif",
+          "webp": "/gallery/watercolor/preview/img09.webp",
+          "jpeg": "/gallery/watercolor/preview/img09.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img09.png"
+        }
+      }
     ]
   },
   {
     "id": "w06",
     "layout": "single",
     "images": [
-      { "src": "/gallery/watercolor/img10.png", "alt": "Watercolor 10" }
+      {
+        "alt": "Watercolor 10",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img10.avif",
+          "webp": "/gallery/watercolor/preview/img10.webp",
+          "jpeg": "/gallery/watercolor/preview/img10.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img10.png"
+        }
+      }
     ]
   },
   {
     "id": "w07",
     "layout": "mosaicRight",
     "images": [
-      { "src": "/gallery/watercolor/img11.png", "alt": "Watercolor 11" },
-      { "src": "/gallery/watercolor/img12.png", "alt": "Watercolor 12" },
-      { "src": "/gallery/watercolor/img13.png", "alt": "Watercolor 13" }
+      {
+        "alt": "Watercolor 11",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img11.avif",
+          "webp": "/gallery/watercolor/preview/img11.webp",
+          "jpeg": "/gallery/watercolor/preview/img11.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img11.png"
+        }
+      },
+      {
+        "alt": "Watercolor 12",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img12.avif",
+          "webp": "/gallery/watercolor/preview/img12.webp",
+          "jpeg": "/gallery/watercolor/preview/img12.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img12.png"
+        }
+      },
+      {
+        "alt": "Watercolor 13",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img13.avif",
+          "webp": "/gallery/watercolor/preview/img13.webp",
+          "jpeg": "/gallery/watercolor/preview/img13.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img13.png"
+        }
+      }
     ]
   },
   {
     "id": "w08",
     "layout": "pair",
     "images": [
-      { "src": "/gallery/watercolor/img14.png", "alt": "Watercolor 14" },
-      { "src": "/gallery/watercolor/img15.png", "alt": "Watercolor 15" }
+      {
+        "alt": "Watercolor 14",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img14.avif",
+          "webp": "/gallery/watercolor/preview/img14.webp",
+          "jpeg": "/gallery/watercolor/preview/img14.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img14.png"
+        }
+      },
+      {
+        "alt": "Watercolor 15",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img15.avif",
+          "webp": "/gallery/watercolor/preview/img15.webp",
+          "jpeg": "/gallery/watercolor/preview/img15.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img15.png"
+        }
+      }
     ]
   },
   {
     "id": "w09",
     "layout": "single",
     "images": [
-      { "src": "/gallery/watercolor/img16.png", "alt": "Watercolor 16" }
+      {
+        "alt": "Watercolor 16",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img16.avif",
+          "webp": "/gallery/watercolor/preview/img16.webp",
+          "jpeg": "/gallery/watercolor/preview/img16.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img16.png"
+        }
+      }
     ]
   },
   {
     "id": "w10",
     "layout": "mosaicLeft",
     "images": [
-      { "src": "/gallery/watercolor/img17.png", "alt": "Watercolor 17" },
-      { "src": "/gallery/watercolor/img18.png", "alt": "Watercolor 18" },
-      { "src": "/gallery/watercolor/img19.png", "alt": "Watercolor 19" }
+      {
+        "alt": "Watercolor 17",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img17.avif",
+          "webp": "/gallery/watercolor/preview/img17.webp",
+          "jpeg": "/gallery/watercolor/preview/img17.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img17.png"
+        }
+      },
+      {
+        "alt": "Watercolor 18",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img18.avif",
+          "webp": "/gallery/watercolor/preview/img18.webp",
+          "jpeg": "/gallery/watercolor/preview/img18.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img18.png"
+        }
+      },
+      {
+        "alt": "Watercolor 19",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img19.avif",
+          "webp": "/gallery/watercolor/preview/img19.webp",
+          "jpeg": "/gallery/watercolor/preview/img19.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img19.png"
+        }
+      }
     ]
   },
   {
     "id": "w11",
     "layout": "pair",
     "images": [
-      { "src": "/gallery/watercolor/img20.png", "alt": "Watercolor 20" },
-      { "src": "/gallery/watercolor/img21.png", "alt": "Watercolor 21" }
+      {
+        "alt": "Watercolor 20",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img20.avif",
+          "webp": "/gallery/watercolor/preview/img20.webp",
+          "jpeg": "/gallery/watercolor/preview/img20.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img20.png"
+        }
+      },
+      {
+        "alt": "Watercolor 21",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img21.avif",
+          "webp": "/gallery/watercolor/preview/img21.webp",
+          "jpeg": "/gallery/watercolor/preview/img21.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img21.png"
+        }
+      }
     ]
   },
   {
     "id": "w12",
     "layout": "single",
     "images": [
-      { "src": "/gallery/watercolor/img22.png", "alt": "Watercolor 22" }
+      {
+        "alt": "Watercolor 22",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img22.avif",
+          "webp": "/gallery/watercolor/preview/img22.webp",
+          "jpeg": "/gallery/watercolor/preview/img22.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img22.png"
+        }
+      }
     ]
   },
   {
     "id": "w13",
     "layout": "mosaicRight",
     "images": [
-      { "src": "/gallery/watercolor/img23.png", "alt": "Watercolor 23" },
-      { "src": "/gallery/watercolor/img24.png", "alt": "Watercolor 24" },
-      { "src": "/gallery/watercolor/img25.png", "alt": "Watercolor 25" }
+      {
+        "alt": "Watercolor 23",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img23.avif",
+          "webp": "/gallery/watercolor/preview/img23.webp",
+          "jpeg": "/gallery/watercolor/preview/img23.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img23.png"
+        }
+      },
+      {
+        "alt": "Watercolor 24",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img24.avif",
+          "webp": "/gallery/watercolor/preview/img24.webp",
+          "jpeg": "/gallery/watercolor/preview/img24.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img24.png"
+        }
+      },
+      {
+        "alt": "Watercolor 25",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img25.avif",
+          "webp": "/gallery/watercolor/preview/img25.webp",
+          "jpeg": "/gallery/watercolor/preview/img25.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img25.png"
+        }
+      }
     ]
   },
   {
     "id": "w14",
     "layout": "pair",
     "images": [
-      { "src": "/gallery/watercolor/img26.png", "alt": "Watercolor 26" },
-      { "src": "/gallery/watercolor/img27.png", "alt": "Watercolor 27" }
+      {
+        "alt": "Watercolor 26",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img26.avif",
+          "webp": "/gallery/watercolor/preview/img26.webp",
+          "jpeg": "/gallery/watercolor/preview/img26.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img26.png"
+        }
+      },
+      {
+        "alt": "Watercolor 27",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img27.avif",
+          "webp": "/gallery/watercolor/preview/img27.webp",
+          "jpeg": "/gallery/watercolor/preview/img27.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img27.png"
+        }
+      }
     ]
   },
   {
     "id": "w15",
     "layout": "mosaicRight",
     "images": [
-      { "src": "/gallery/watercolor/img28.png", "alt": "Watercolor 28" },
-      { "src": "/gallery/watercolor/img29.png", "alt": "Watercolor 29" },
-      { "src": "/gallery/watercolor/img30.png", "alt": "Watercolor 30" }
+      {
+        "alt": "Watercolor 28",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img28.avif",
+          "webp": "/gallery/watercolor/preview/img28.webp",
+          "jpeg": "/gallery/watercolor/preview/img28.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img28.png"
+        }
+      },
+      {
+        "alt": "Watercolor 29",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img29.avif",
+          "webp": "/gallery/watercolor/preview/img29.webp",
+          "jpeg": "/gallery/watercolor/preview/img29.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img29.png"
+        }
+      },
+      {
+        "alt": "Watercolor 30",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img30.avif",
+          "webp": "/gallery/watercolor/preview/img30.webp",
+          "jpeg": "/gallery/watercolor/preview/img30.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img30.png"
+        }
+      }
     ]
   },
   {
     "id": "w16",
     "layout": "pair",
     "images": [
-      { "src": "/gallery/watercolor/img31.png", "alt": "Watercolor 31" },
-      { "src": "/gallery/watercolor/img32.png", "alt": "Watercolor 32" }
+      {
+        "alt": "Watercolor 31",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img31.avif",
+          "webp": "/gallery/watercolor/preview/img31.webp",
+          "jpeg": "/gallery/watercolor/preview/img31.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img31.png"
+        }
+      },
+      {
+        "alt": "Watercolor 32",
+        "preview": {
+          "avif": "/gallery/watercolor/preview/img32.avif",
+          "webp": "/gallery/watercolor/preview/img32.webp",
+          "jpeg": "/gallery/watercolor/preview/img32.jpg"
+        },
+        "full": {
+          "png": "/gallery/watercolor/full/img32.png"
+        }
+      }
     ]
   }
 ]
