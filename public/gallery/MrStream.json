@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "apdatedAt": "2025-10-06T15:00:00Z",
+  "blocks": [
+    {
+      "id": "streamPositionNamberOne",
+      "type": "gallery",
+      "layout": "mosaicRight",
+      "artworks": ["uniqId1", "uniqId2", "uniqId3"],
+      "blockCaption": "My precioussss..."
+    },
+    {
+      "id": "streamPositionNamberTwo",
+      "type": "note",
+      "noteId": "note-2025-001",
+      "layout": "impressions",
+      "style": "Header"
+    },
+    {
+      "id": "streamPositionNamberThree",
+      "layout": "singl",
+      "artworks": ["uniqId4"],
+      "blockCaption": "My only precioussss..."
+    },
+    {
+      "id": "streamPositionNamberFour",
+      "layout": "pair",
+      "artworks": ["uniqId5", "uniqId6"],
+      "blockCaption": "My another precioussss..."
+    }
+  ]
+}

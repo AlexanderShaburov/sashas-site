@@ -1,0 +1,14 @@
+{
+  "note-2025-001": {
+    "id": "note-2025-001",
+    "text": {
+      "ru": "Я не принимаю наркотики — я сам — наркотик.",
+      "en": "I don’t do drugs. I am drugs.",
+      "it": "Non prendo droghe — io sono la droga."
+    },
+    "date": "2025-10-05",
+    "mood": ["calm", "process"],
+    "refs": ["somUniqId1", "somUniqId4"],
+    "attachment": ["everythingYourWant"]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "someUniqId": {
+    "id": "somUniqId",
+    "title": "Very Buitiful Composition #1",
+    "dateCreated": "2025-10-06",
+    "materials": ["aquarele", "paper"],
+    "dimentions": { "width": 80, "height": 100, "unit": "cm" },
+    "price": { "amount": 1200, "currency": "EUR" },
+    "availability": "available",
+    "series": "night mares",
+    "tags": ["mexed media", "scary", "not abstract"],
+    "notes": "under heavy chemicals",
+    "images": {
+      "alt": "Abstract aquarell composition",
+      "preview": {
+        "avif": "/gallery/watercolor/preview/img19.avif",
+        "webp": "/gallery/watercolor/preview/img19.webp",
+        "jpeg": "/gallery/watercolor/preview/img19.jpg"
+      },
+      "full": "/gallery/watercolor/full/img19.png"
+    }
+  }
+}
