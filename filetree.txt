@@ -1,0 +1,42 @@
+SASHA
+ ┗  SashaGallery/
+    ┣ sasha-gallery-js/
+    ┃ ┣ deploy/
+    ┃ ┣ node_modules/
+    ┃ ┣ public/
+    ┃ ┣ scripts/
+    ┃ ┣ src/
+    ┃ ┣ .dockerignore
+    ┃ ┣ .gitignore
+    ┃ ┣ Dockerfile
+    ┃ ┣ README.md
+    ┃ ┣ docker-cleanup.sh
+    ┃ ┣ docker-compose.caddy.yml
+    ┃ ┣ docker-compose.yml
+    ┃ ┣ eslint.config.js
+    ┃ ┣ index.html
+    ┃ ┣ package-lock.json
+    ┃ ┣ package.json
+    ┃ ┗ vite.config.js
+    ┗ sasha-gallery-ts/
+    ┣ .vscode/
+    ┣ deploy/
+    ┣ node_modules/
+    ┣ public/
+    ┣ scripts/
+    ┣ src/
+    ┣ .dockerignore
+    ┣ .eslintrc.cjs
+    ┣ .gitignore
+    ┣ Dockerfile
+    ┣ README.md
+    ┣ docker-cleanup.sh
+    ┣ docker-compose.caddy.yml
+    ┣ docker-compose.yml
+    ┣ env.d.ts
+    ┣ eslint.config.js
+    ┣ index.html
+    ┣ package-lock.json
+    ┣ package.json
+    ┣ tsconfig.json
+    ┗ vite.config.ts
